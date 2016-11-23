@@ -1,0 +1,35 @@
+{
+    "id": "https://github.com/EdinburghCityScope/sg-council-house-sales",
+    "title": "Council House Sales in Edinburgh",
+    "description": "Number of council house sales in Edinburgh to sitting tenants by housing type.",
+    "landingPage": "https://github.com/EdinburghCityScope/sg-council-house-sales",
+    "issued": "2016-10-21",
+    "modified": "2016-11-21",
+    "language": [
+        "en"
+    ],
+    "publisher": {
+        "name": "Scottish Government",
+        "mbox": "statistics.enquiries@scotland.gsi.gov.uk"
+    },
+    "spatial": "http://www.geonames.org/maps/google_55.95_-3.193.html",
+    "keyword": [
+        "housing"
+    ],
+    "distribution": [
+        {
+            "title": "Edinburgh Data Zones 2001",
+            "description": "Data Zones 2001 boundaries in GeoJSON.",
+            "mediaType": "application/vnd.geo+json",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/sg-council-house-sales/master/data/data-zones-2001.json",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh Council House Sales data",
+            "description": "Council House Sales by Edinburgh Data Zones 2001 as published by Scottish Government. Data taken from http://statistics.gov.scot/data/council-house-sales",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/sg-council-house-sales/master/data/council-house-sales.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        }
+    ]
+}

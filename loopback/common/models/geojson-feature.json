@@ -1,0 +1,37 @@
+{
+  "name": "GeoJSONFeature",
+  "description": "An Edinburgh Data Zone 2001 represented as a GeoJSON Feature",
+  "plural": "GeoJSONFeatures",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "mongodb": {
+    "collection": "Features"
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "required": true,
+      "id": true,
+      "generated": false
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "properties": {
+      "type": "object",
+      "required": true
+    },
+    "geometry": {
+      "type": "GeoJSONGeometry",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

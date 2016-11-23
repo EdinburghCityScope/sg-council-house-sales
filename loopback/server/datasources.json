@@ -1,0 +1,7 @@
+{
+  "file": {
+    "name": "file",
+    "connector": "memory",
+    "file": "${LOOPBACK_FILE}"
+  }
+}
